@@ -1,0 +1,471 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ApiControlAsistenciaBiometrico",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/biometrico/dispositivos": {
+      "post": {
+        "tags": [
+          "Biometrico"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegistrarDispositivoRequestVm"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegistrarDispositivoRequestVm"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegistrarDispositivoRequestVm"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DispositivoResponseVm"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DispositivoResponseVm"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DispositivoResponseVm"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/biometrico/dispositivos/{id}": {
+      "get": {
+        "tags": [
+          "Biometrico"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DispositivoResponseVm"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DispositivoResponseVm"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DispositivoResponseVm"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/biometrico/marcajes/batch": {
+      "post": {
+        "tags": [
+          "Biometrico"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BatchMarcajesRequestVm"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BatchMarcajesRequestVm"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BatchMarcajesRequestVm"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/BatchMarcajesResponseVm"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BatchMarcajesResponseVm"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BatchMarcajesResponseVm"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/biometrico/marcajes": {
+      "get": {
+        "tags": [
+          "Biometrico"
+        ],
+        "parameters": [
+          {
+            "name": "usuarioId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "desdeUtc",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "hastaUtc",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MarcajeDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MarcajeDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MarcajeDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/biometrico/sync/estado": {
+      "get": {
+        "tags": [
+          "Biometrico"
+        ],
+        "parameters": [
+          {
+            "name": "agentKey",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/SyncEstadoResponseVm"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SyncEstadoResponseVm"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SyncEstadoResponseVm"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BatchMarcajesRequestVm": {
+        "type": "object",
+        "properties": {
+          "agentKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "dispositivoId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "clinicaId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "marcajes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MarcajeDto"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "BatchMarcajesResponseVm": {
+        "type": "object",
+        "properties": {
+          "recibidos": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "insertados": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "duplicados": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "rechazados": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "serverUtc": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DispositivoResponseVm": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "clinicaId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "serial": {
+            "type": "string",
+            "nullable": true
+          },
+          "activo": {
+            "type": "boolean"
+          },
+          "ultimoSyncUtc": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MarcajeDto": {
+        "type": "object",
+        "properties": {
+          "personCode": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fechaHoraUtc": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "fechaHoraLocal": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "tipoMarcaje": {
+            "type": "string",
+            "nullable": true
+          },
+          "recordIdLocal": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegistrarDispositivoRequestVm": {
+        "type": "object",
+        "properties": {
+          "clinicaId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "serial": {
+            "type": "string",
+            "nullable": true
+          },
+          "marcaModelo": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SyncEstadoResponseVm": {
+        "type": "object",
+        "properties": {
+          "agentKey": {
+            "type": "string",
+            "nullable": true
+          },
+          "dispositivoId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ultimoPushUtc": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "serverUtc": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

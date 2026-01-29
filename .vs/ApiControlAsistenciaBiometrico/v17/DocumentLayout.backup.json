@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|c:\\users\\david.carrasco\\source\\repos\\apicontrolasistenciabiometrico\\apicontrolasistenciabiometrico\\controllers\\biometricocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|solutionrelative:apicontrolasistenciabiometrico\\controllers\\biometricocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|c:\\users\\david.carrasco\\source\\repos\\apicontrolasistenciabiometrico\\apicontrolasistenciabiometrico\\models\\viewmodels\\biometrico\\marcajedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|solutionrelative:apicontrolasistenciabiometrico\\models\\viewmodels\\biometrico\\marcajedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|c:\\users\\david.carrasco\\source\\repos\\apicontrolasistenciabiometrico\\apicontrolasistenciabiometrico\\models\\viewmodels\\biometrico\\batchmarcajesrequestvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|solutionrelative:apicontrolasistenciabiometrico\\models\\viewmodels\\biometrico\\batchmarcajesrequestvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|c:\\users\\david.carrasco\\source\\repos\\apicontrolasistenciabiometrico\\apicontrolasistenciabiometrico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|solutionrelative:apicontrolasistenciabiometrico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|c:\\users\\david.carrasco\\source\\repos\\apicontrolasistenciabiometrico\\apicontrolasistenciabiometrico\\models\\biometricodispositivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|solutionrelative:apicontrolasistenciabiometrico\\models\\biometricodispositivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|c:\\users\\david.carrasco\\source\\repos\\apicontrolasistenciabiometrico\\apicontrolasistenciabiometrico\\models\\viewmodels\\biometrico\\syncestadoresponsevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|solutionrelative:apicontrolasistenciabiometrico\\models\\viewmodels\\biometrico\\syncestadoresponsevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|c:\\users\\david.carrasco\\source\\repos\\apicontrolasistenciabiometrico\\apicontrolasistenciabiometrico\\models\\viewmodels\\biometrico\\dispositivoresponsevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|solutionrelative:apicontrolasistenciabiometrico\\models\\viewmodels\\biometrico\\dispositivoresponsevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|c:\\users\\david.carrasco\\source\\repos\\apicontrolasistenciabiometrico\\apicontrolasistenciabiometrico\\models\\viewmodels\\biometrico\\registrardispositivorequestvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|solutionrelative:apicontrolasistenciabiometrico\\models\\viewmodels\\biometrico\\registrardispositivorequestvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|c:\\users\\david.carrasco\\source\\repos\\apicontrolasistenciabiometrico\\apicontrolasistenciabiometrico\\models\\viewmodels\\biometrico\\batchmarcajesresponsevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|solutionrelative:apicontrolasistenciabiometrico\\models\\viewmodels\\biometrico\\batchmarcajesresponsevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|c:\\users\\david.carrasco\\source\\repos\\apicontrolasistenciabiometrico\\apicontrolasistenciabiometrico\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|solutionrelative:apicontrolasistenciabiometrico\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|c:\\users\\david.carrasco\\source\\repos\\apicontrolasistenciabiometrico\\apicontrolasistenciabiometrico\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|solutionrelative:apicontrolasistenciabiometrico\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|c:\\users\\david.carrasco\\source\\repos\\apicontrolasistenciabiometrico\\apicontrolasistenciabiometrico\\apicontrolasistenciabiometrico.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4E7756AB-6703-46E0-B6B0-775F0681F9C8}|ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj|solutionrelative:apicontrolasistenciabiometrico\\apicontrolasistenciabiometrico.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BiometricoDispositivo.cs",
+              "DocumentMoniker": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\Models\\BiometricoDispositivo.cs",
+              "RelativeDocumentMoniker": "ApiControlAsistenciaBiometrico\\Models\\BiometricoDispositivo.cs",
+              "ToolTip": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\Models\\BiometricoDispositivo.cs",
+              "RelativeToolTip": "ApiControlAsistenciaBiometrico\\Models\\BiometricoDispositivo.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAywBEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T19:48:07.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BiometricoController.cs",
+              "DocumentMoniker": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\Controllers\\BiometricoController.cs",
+              "RelativeDocumentMoniker": "ApiControlAsistenciaBiometrico\\Controllers\\BiometricoController.cs",
+              "ToolTip": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\Controllers\\BiometricoController.cs",
+              "RelativeToolTip": "ApiControlAsistenciaBiometrico\\Controllers\\BiometricoController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAE8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T19:47:10.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SyncEstadoResponseVm.cs",
+              "DocumentMoniker": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\SyncEstadoResponseVm.cs",
+              "RelativeDocumentMoniker": "ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\SyncEstadoResponseVm.cs",
+              "ToolTip": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\SyncEstadoResponseVm.cs",
+              "RelativeToolTip": "ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\SyncEstadoResponseVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T19:46:08.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DispositivoResponseVm.cs",
+              "DocumentMoniker": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\DispositivoResponseVm.cs",
+              "RelativeDocumentMoniker": "ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\DispositivoResponseVm.cs",
+              "ToolTip": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\DispositivoResponseVm.cs",
+              "RelativeToolTip": "ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\DispositivoResponseVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T19:32:09.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegistrarDispositivoRequestVm.cs",
+              "DocumentMoniker": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\RegistrarDispositivoRequestVm.cs",
+              "RelativeDocumentMoniker": "ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\RegistrarDispositivoRequestVm.cs",
+              "ToolTip": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\RegistrarDispositivoRequestVm.cs",
+              "RelativeToolTip": "ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\RegistrarDispositivoRequestVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T19:31:49.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BatchMarcajesRequestVm.cs",
+              "DocumentMoniker": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\BatchMarcajesRequestVm.cs",
+              "RelativeDocumentMoniker": "ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\BatchMarcajesRequestVm.cs",
+              "ToolTip": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\BatchMarcajesRequestVm.cs",
+              "RelativeToolTip": "ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\BatchMarcajesRequestVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T19:30:35.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BatchMarcajesResponseVm.cs",
+              "DocumentMoniker": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\BatchMarcajesResponseVm.cs",
+              "RelativeDocumentMoniker": "ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\BatchMarcajesResponseVm.cs",
+              "ToolTip": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\BatchMarcajesResponseVm.cs",
+              "RelativeToolTip": "ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\BatchMarcajesResponseVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T19:31:14.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MarcajeDto.cs",
+              "DocumentMoniker": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\MarcajeDto.cs",
+              "RelativeDocumentMoniker": "ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\MarcajeDto.cs",
+              "ToolTip": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\MarcajeDto.cs",
+              "RelativeToolTip": "ApiControlAsistenciaBiometrico\\Models\\ViewModels\\Biometrico\\MarcajeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T19:30:11.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ApiControlAsistenciaBiometrico\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ApiControlAsistenciaBiometrico\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAJoCAAAAAAAAAAAuwMgMAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T18:29:42.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\Program.cs",
+              "RelativeDocumentMoniker": "ApiControlAsistenciaBiometrico\\Program.cs",
+              "ToolTip": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\Program.cs",
+              "RelativeToolTip": "ApiControlAsistenciaBiometrico\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T18:10:25.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiControlAsistenciaBiometrico\\appsettings.json",
+              "ToolTip": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\appsettings.json",
+              "RelativeToolTip": "ApiControlAsistenciaBiometrico\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-23T18:09:30.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApiControlAsistenciaBiometrico",
+              "DocumentMoniker": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj",
+              "RelativeDocumentMoniker": "ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj",
+              "ToolTip": "C:\\Users\\david.carrasco\\source\\repos\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj",
+              "RelativeToolTip": "ApiControlAsistenciaBiometrico\\ApiControlAsistenciaBiometrico.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-23T18:09:13.706Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
