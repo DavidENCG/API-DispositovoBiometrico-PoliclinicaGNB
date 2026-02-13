@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiControlAsistenciaBiometrico")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc4ec4a706e25bcd9bc37688eddc2f0ea415e139")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiControlAsistenciaBiometrico")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiControlAsistenciaBiometrico")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
